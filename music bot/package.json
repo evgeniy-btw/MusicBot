@@ -1,0 +1,35 @@
+{
+  "name": "music-bot",
+  "version": "3.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "ascii-table": "0.0.9",
+    "common-tags": "^1.8.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "0.0.1-security",
+    "lyrics-finder": "^21.4.0",
+    "mal-scraper": "^2.7.2",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.7",
+    "scrape-yt": "^1.4.6",
+    "youtube-sr": "^2.0.1",
+    "yt-search": "^2.2.4",
+    "ytdl-core": "^4.1.2",
+    "ytdl-core-discord": "^1.2.4"
+  }
+}
